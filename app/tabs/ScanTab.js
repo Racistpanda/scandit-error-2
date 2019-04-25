@@ -308,11 +308,13 @@ export default class ScanScreen extends Component {
   }
 
   onScan(session) {
-    this.state.text = '';
-    this.state.buttonDisabled = false;
-    session.pauseScanning();
-    session.newlyRecognizedCodes.forEach((barcode) =>
-      this.state.text += '\n(' + barcode.symbology + ') ' + barcode.data);
-    this.setState(this.state);
+    session.stopScanning();
+    this.props.navigation.navigate('Pickers');
+    // this.state.text = '';
+    // this.state.buttonDisabled = false;
+    // session.pauseScanning();
+    // session.newlyRecognizedCodes.forEach((barcode) =>
+    //   this.state.text += '\n(' + barcode.symbology + ') ' + barcode.data);
+    // this.setState(this.state);
   }
 }

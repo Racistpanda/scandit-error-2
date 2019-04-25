@@ -12,7 +12,7 @@ import ScanTab from './app/tabs/ScanTab';
 import SettingsTab from './app/tabs/SettingsTab';
 import PickersTab from './app/tabs/PickersTab';
 
-ScanditModule.setAppKey('Scandit key here');
+ScanditModule.setAppKey('INSERT SCANDIT KEY HERE');
 
 export const App = TabNavigator({
         Scan: {

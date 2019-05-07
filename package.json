@@ -11,7 +11,7 @@
     "react-native": "0.59.4",
     "prop-types": "15.6.2",
     "react-native-iphone-x-helper": "^1.0.2",
-    "scandit-react-native": "5.11.0",
+    "scandit-react-native": "git+https://github.com/Scandit/barcodescanner-sdk-react-native.git#release-5.11",
     "react-native-simple-events": "1.0.1",
     "react-navigation": "1.5.8"
   },

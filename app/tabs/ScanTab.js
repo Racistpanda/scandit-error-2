@@ -132,14 +132,14 @@ export default class ScanScreen extends Component {
     this.scanSpecs.scanSettings.highDensityModeEnabled = false;
     this.scanSpecs.overlaySettings.guiStyle = ScanOverlay.GuiStyle.DEFAULT;
     this.scanSpecs.overlaySettings.viewfinderSize = {
-      width: 0.9,
-      height: 0.4,
+      width: 0.2,
+      height: 0.3,
       landscapeWidth: 0.6,
-      landscapeHeight: 0.4
+      landscapeHeight: 0.1
     }
     this.scanSpecs.overlaySettings.torchOffset = {
-      left: 15,
-      top: 15
+      left: 20,
+      top: 20
     }
     this.scanSpecs.overlaySettings.cameraSwitchOffset = {
       right: 15,

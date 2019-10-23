@@ -26,7 +26,7 @@ export const App = TabNavigator({
         }},
     {
         tabBarPosition: 'bottom',
-        swipeEnabled: false,
+        swipeEnabled: 0,
         backBehavior: 'none',
         animationEnabled: false,
         lazy: true,

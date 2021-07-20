@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.4",
+    "react-native": "0.62.3",
     "prop-types": "15.6.2",
     "react-native-iphone-x-helper": "^1.0.2",
     "scandit-react-native": "git+https://github.com/Scandit/barcodescanner-sdk-react-native.git#release-5.11",
